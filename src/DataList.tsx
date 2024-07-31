@@ -8,8 +8,8 @@ const DataList: React.FC = () => {
       <h1>Data List</h1>
       <ul>
         {dataArray.map((item: DataItem) => (
-          <li key={item.name}>
-            <h2>{item.name}</h2>
+          <li key={item.word}>
+            <h2>{item.undercover}</h2>
           </li>
         ))}
       </ul>
