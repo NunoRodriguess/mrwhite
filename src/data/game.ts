@@ -43,7 +43,9 @@ class Game {
     // Initialize cards array with "Normal"
     this.cards = Array.from({ length: this.playerCount }, () => "Normal");
 
-    this.order= Array.from({ length: this.playerCount }, () => -1);
+    this.order = Array.from({ length: this.playerCount }, () => -1);
+    
+    this.choosing = 0;
 
     // Create and shuffle array with indices
     const arrayWithIndices: number[] = Array.from({ length: this.playerCount }, (_, i) => i);
@@ -80,7 +82,11 @@ class Game {
     // Initialize cards array with "Normal"
     if (this.order[choosedCard] ===- 1)
       this.order[choosedCard] = this.choosing++; 
-    console.log(this);
+
+    if (this.order.every(num => num >= 0)) {
+      this.gameStatus = GameStatus.OnGoing;
+    }
+    
   }
 }
   
