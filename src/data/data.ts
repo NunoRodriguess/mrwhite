@@ -17,6 +17,5 @@ export interface DataItem {
       word:  "Item 3",
       undercover:"Undercover 3"
     },
-    // Add more items as needed
   ];
   
