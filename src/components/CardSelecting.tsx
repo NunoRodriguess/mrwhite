@@ -53,9 +53,10 @@ const CardSelecting: React.FC<CardSelectingProps> = () => {
     const renderText= () => {
         if (currentGame.choosing === currentGame.playerCount) {
            const arrayWithIndices: number[] = Array.from({ length: currentGame.playerCount }, (_, i) => i);
-            const shuffledArray: number[] = _.shuffle(arrayWithIndices);
+          const shuffledArray: number[] = _.shuffle(arrayWithIndices);
+          let new_arr = shuffledArray.map(a => a+1);
       return <h1 className="font-mono text-center text-lg sm:text-xl md:text-2xl">
-        Ordem Sugerida: {shuffledArray}
+        Ordem Sugerida: {new_arr}
       </h1>
     } else {
       return <h1 className="font-mono text-center text-lg sm:text-xl md:text-2xl">
