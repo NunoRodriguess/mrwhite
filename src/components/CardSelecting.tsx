@@ -45,7 +45,7 @@ const CardSelecting: React.FC<CardSelectingProps> = () => {
            mensagem = " A palavra é: " + currentGame.word.word;
           }
       else if (tipo === 'Undercover') {
-          mensagem = " A palavra é: " + currentGame.word.undercover;
+          mensagem = " És um espião, a tua pista é: " + currentGame.word.undercover;
           }
     alert(mensagem);
     setCards(currentGame.cards.map((card, idx) => ({ card, id: idx })));
