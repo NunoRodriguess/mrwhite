@@ -5,165 +5,224 @@ export interface DataItem {
 }
 
 export const dataArray: DataItem[] = [
-  // Existing entries
   {
-    word: "Cavalo",
-    undercover: "Camelo",
-  },
-  {
-    word: "Homem",
-    undercover: "Macaco",
-  },
-  {
-    word: "Mar",
-    undercover: "Piscina",
-  },
-  {
-    word: "Sol",
-    undercover: "Luz",
-  },
-  {
-    word: "Carro",
-    undercover: "Camião",
-  },
-  {
-    word: "Cidade",
-    undercover: "Bairro",
-  },
-  {
-    word: "Árvore",
-    undercover: "Planta",
-  },
-  {
-    word: "Montanha",
-    undercover: "Vale",
-  },
-  {
-    word: "Livro",
-    undercover: "História",
-  },
-  {
-    word: "Computador",
-    undercover: "Telemóvel",
-  },
-  {
-    word: "Música",
-    undercover: "Ruído",
-  },
-  {
-    word: "Casa",
-    undercover: "Lar",
-  },
-  {
-    word: "Escola",
-    undercover: "Enfermaria",
-  },
-  {
-    word: "Praia",
-    undercover: "Costa",
-  },
-  {
-    word: "Avião",
-    undercover: "Aeroporto",
-  },
-  {
-    word: "Jogo",
-    undercover: "Trabalho",
-  },
-  {
-    word: "Almoço",
-    undercover: "Lanche",
-  },
-  {
-    word: "Filme",
-    undercover: "Cinema",
-  },
-  {
-    word: "Relógio",
-    undercover: "Tempo",
-  },
-  {
-    word: "Telefone",
-    undercover: "Número",
-  },
-  {
-    word: "Tigre",
+    word: "Gato",
     undercover: "Leão",
   },
   {
-    word: "Quadro",
-    undercover: "Tela",
+    word: "Café",
+    undercover: "Chá",
   },
   {
-    word: "Fruta",
-    undercover: "Morangos",
+    word: "Hospital",
+    undercover: "Hotel",
   },
   {
-    word: "Rolha",
-    undercover: "Garrafa",
+    word: "Professor",
+    undercover: "Giz",
   },
   {
-    word: "Cadeira",
-    undercover: "Móvel",
+    word: "Xerife",
+    undercover: "Cowboy",
   },
   {
-    word: "Teatro",
-    undercover: "Peça",
+    word: "Bicicleta",
+    undercover: "Trotinete",
   },
   {
-    word: "Futebol",
-    undercover: "Jogo",
+    word: "Restaurante",
+    undercover: "Cantina",
   },
   {
-    word: "Chave",
-    undercover: "Fechadura",
+    word: "Padaria",
+    undercover: "Pizaria",
   },
   {
-    word: "Guitarra",
-    undercover: "Violino",
+    word: "Insecto",
+    undercover: "Marisco",
   },
   {
-    word: "Escova",
-    undercover: "Vassoura",
+    word: "Arroz",
+    undercover: "Massa",
   },
   {
-    word: "Navio",
-    undercover: "Cruzeiro",
+    word: "Floresta",
+    undercover: "Parque Urbano",
   },
   {
-    word: "Sala",
-    undercover: "Quarto",
+    word: "Oasis",
+    undercover: "Deserto",
   },
   {
-    word: "Caderno",
-    undercover: "Diário",
+    word: "Rio",
+    undercover: "Lago",
   },
   {
-    word: "Rádio",
-    undercover: "Microfone",
+    word: "Ilha",
+    undercover: "Continente",
   },
   {
-    word: "Câmara",
-    undercover: "Vídeo",
+    word: "Neve",
+    undercover: "Gelo",
   },
   {
-    word: "Médico",
-    undercover: "Enfermeiro",
+    word: "Chuva",
+    undercover: "Tempestade",
   },
   {
-    word: "Óculos",
-    undercover: "Olhos",
+    word: "Vento",
+    undercover: "Moinho",
   },
   {
-    word: "Jardim",
-    undercover: "Horta",
+    word: "Fumo",
+    undercover: "Gás",
   },
   {
-    word: "Cozinha",
-    undercover: "Receitas",
+    word: "Gelado",
+    undercover: "Sobremesa",
   },
   {
-    word: "Perfume",
-    undercover: "Desodorizante",
+    word: "Cacau",
+    undercover: "Grão",
+  },
+  {
+    word: "Torrada",
+    undercover: "Pastél de Nata",
+  },
+  {
+    word: "Queijo",
+    undercover: "Manteiga",
+  },
+  {
+    word: "Mercado",
+    undercover: "Loja",
+  },
+  {
+    word: "Supermercado",
+    undercover: "Armazém",
+  },
+  {
+    word: "Banco",
+    undercover: "Dinheiro",
+  },
+  {
+    word: "Carteira",
+    undercover: "Mala",
+  },
+  {
+    word: "Chuteiras",
+    undercover: "Galoxas",
+  },
+  {
+    word: "Casaco",
+    undercover: "Cachecol",
+  },
+  {
+    word: "Espelho",
+    undercover: "Reflexo",
+  },
+  {
+    word: "Janela",
+    undercover: "Abertura",
+  },
+  {
+    word: "Elevador",
+    undercover: "Escadas",
+  },
+  {
+    word: "Garagem",
+    undercover: "Estacionamento",
+  },
+  {
+    word: "Comboio",
+    undercover: "Metro",
+  },
+  {
+    word: "Autocarro",
+    undercover: "Paragem",
+  },
+  {
+    word: "Taxi",
+    undercover: "Uber",
+  },
+  {
+    word: "Mapa",
+    undercover: "Bússola",
+  },
+  {
+    word: "Viagem",
+    undercover: "Férias",
+  },
+  {
+    word: "Resort",
+    undercover: "Motel",
+  },
+  {
+    word: "Piscina",
+    undercover: "Balneário",
+  },
+  {
+    word: "Ginásio",
+    undercover: "Treino",
+  },
+  {
+    word: "Desporto",
+    undercover: "Exercício",
+  },
+  {
+    word: "Basquetebol",
+    undercover: "Voleibol",
+  },
+  {
+    word: "Atleta",
+    undercover: "Treinador",
+  },
+  {
+    word: "Camara",
+    undercover: "Fotografia",
+  },
+  {
+    word: "Biblioteca",
+    undercover: "Libraria",
+  },
+  {
+    word: "Museu",
+    undercover: "Velharias",
+  },
+  {
+    word: "Estátua",
+    undercover: "Monumento",
+  },
+  {
+    word: "Mosteiro",
+    undercover: "Capela",
+  },
+  {
+    word: "Festa",
+    undercover: "Celebração",
+  },
+  {
+    word: "Aniversário",
+    undercover: "Prenda",
+  },
+  {
+    word: "Namoro",
+    undercover: "Noivado",
+  },
+  {
+    word: "Família",
+    undercover: "Tios",
+  },
+  {
+    word: "Amigo",
+    undercover: "Conhecido",
+  },
+  {
+    word: "Trabalho",
+    undercover: "Emprego",
+  },
+  {
+    word: "Escritório",
+    undercover: "Secretária",
   },
 ];
